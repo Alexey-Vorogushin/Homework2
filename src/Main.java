@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Общая масса двух боксеров равна " + result);
         var resultTwo = manTwo - manOne;
         System.out.println("Разница в весе между массами бойцов равна " + resultTwo + " кг");
-
+        var resultA = manTwo % manOne;
+        System.out.println("Разница в весе между массами бойцов, найденная с помощью операции остатка от деления, равна " + resultA + " кг");
     }
 }
