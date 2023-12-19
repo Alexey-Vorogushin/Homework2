@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        var manOne = 78.2;
-        var manTwo = 82.7;
-        System.out.println("Масса первого боксера= " + manOne + " Масса второго боксера= " + manTwo);
-        var result = manOne + manTwo;
-        System.out.println("Общая масса двух боксеров равна " + result);
-        var resultTwo = manTwo - manOne;
-        System.out.println("Разница в весе между массами бойцов равна " + resultTwo + " кг");
-        var resultA = manTwo % manOne;
-        System.out.println("Разница в весе между массами бойцов, найденная с помощью операции остатка от деления, равна " + resultA + " кг");
+        var hour = 640;
+        var timeWorker = 8;
+        var result = hour / timeWorker;
+        System.out.println("Всего работников в компании - " + result + " человек");
+        result = result + 94;
+        var resultTwo = hour / result;
+        System.out.println("Если в компании работает " + result + " человек, то всего " + resultTwo + " часов работы может быть поделено между сотрудниками.");
+
     }
 }
